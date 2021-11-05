@@ -1,14 +1,29 @@
+.photointro,.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    
+}
+.intro,.introprojet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .intro{
     width: 100%;
     height: 700px;
-    background-color: #D3D3D3;
+    color: white;
+    background-color: #00BFFF;
+    
 }
 
 .intro :nth-child(1){
-    
-    height: 30%;
     width: 100%;
-    color: black;
+    height: 30%;
+    color: white;
     font-weight: bold;
     font-size: 150px;
     text-align: center;
@@ -23,24 +38,26 @@
     justify-content: space-evenly;
 }
 
-.presentation :nth-child(1){
+.presentation>h1{
     
     height: 15%;
-    color: black;
+    color: #00BFFF;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
-    width: 50%;
+   
    
 }
-
+span{
+    color: #00BFFF;
+}
 .presentation :nth-child(2){
     
     height: 40%;
-    color: black;
-    font-size: 20px;
-    text-align: justify;
-    width: 50%;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    
 }
 
 .photointro{
@@ -50,6 +67,7 @@
     margin: auto;
     text-align: center;
     background-color: #696969;
+    font-size: 40px;
 }
 
 .photointro :nth-child(1){
@@ -59,10 +77,10 @@
 }
 
 .introprojet{
-    height: 200px;
+    height: 300px;
     width: 100%;
     margin-top: 100px;
-    background-color: #A9A9A9;
+    background-color: #00BFFF;
 }
 .introprojet :nth-child(1){
     color: white;
@@ -70,13 +88,25 @@
     font-weight: bold;
 }
 
+.phraseprojet{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
 .projet{
     height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .paraprojet{
     height: 100%;
@@ -111,11 +141,12 @@
     height: 100px;
     width: 100%;
     margin-top: 100px;
-    background-color: #A9A9A9;
+    background-color: #00BFFF;
+    font-size: 60px;
 }
 
 .contact :nth-child(1){
-    color: black;
+    color: white;
     font-weight: bolder;
     text-align: center;
     width: 40%;
@@ -125,7 +156,7 @@
 .bouttoncontact{
     height: 150px;
     width: 100%;
-    background-color: #A9A9A9;
+    background-color: #00BFFF;
     display: flex;
     flex-direction: row;
     align-items:center;
@@ -151,11 +182,5 @@
     padding-top: 2px;
 }
 
-.introprojet,.photointro,.intro,.contact{
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    justify-content: center;
-    font-size: 40px;
-}
+
 
