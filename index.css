@@ -70,9 +70,92 @@
     font-weight: bold;
 }
 
-.introprojet,.photointro,.intro{
+.projet{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.paraprojet{
+    height: 100%;
+    width: 30%;
+    border: #C0C0C0 1px solid;
+}
+
+.paraprojet :nth-child(1){
+    width: 80%;
+    height: 70%;
+    background-color: #D3D3D3;
+    margin-top: 20px;
+}
+
+.paraprojet :nth-child(2){
+    height: 10%;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left:40px;
+}
+
+.paraprojet :nth-child(3){
+    height: 10%;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left:40px;
+}
+
+.contact{
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #A9A9A9;
+}
+
+.contact :nth-child(1){
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    width: 40%;
+    height: 50%;
+}
+
+.bouttoncontact{
+    height: 150px;
+    width: 100%;
+    background-color: #A9A9A9;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+.basdepage{
+    height: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
+
+.basdepage>*{
+   
+    height: 100%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 10%;
+    padding-top: 2px;
+}
+
+.introprojet,.photointro,.intro,.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    font-size: 40px;
+}
+
