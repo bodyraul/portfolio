@@ -1,10 +1,4 @@
-.photointro,.contact{
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    justify-content: center;
-    
-}
+
 .intro,.introprojet{
     display: flex;
     flex-direction: row;
@@ -60,20 +54,12 @@ span{
     
 }
 
-.photointro{
-    height: 450px;
-    width: 450px;
-    border: solid black 2px;
-    margin: auto;
-    text-align: center;
-    background-color: #696969;
-    font-size: 40px;
-}
 
-.photointro :nth-child(1){
-    color: white;
-    font-size: 30px;
-    width: 100%;
+#photo1{
+    zoom: 0.7;
+}
+#photo2{
+  zoom: 0.41;
 }
 
 .introprojet{
@@ -88,7 +74,7 @@ span{
     font-weight: bold;
 }
 
-.phraseprojet{
+.phraseprojet {
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -111,38 +97,42 @@ span{
 .paraprojet{
     height: 100%;
     width: 30%;
-    border: #C0C0C0 1px solid;
+    
 }
 
 .paraprojet :nth-child(1){
-    width: 80%;
-    height: 70%;
-    background-color: #D3D3D3;
-    margin-top: 20px;
+    width: 100%;
+    height: 80%;
 }
 
 .paraprojet :nth-child(2){
     height: 10%;
-    margin-top: 20px;
     color: black;
-    font-weight: bold;
     font-size: 30px;
     margin-left:40px;
 }
 
 .paraprojet :nth-child(3){
     height: 10%;
-    margin-top: 20px;
     font-size: 20px;
     margin-left:40px;
+    opacity: 0.5;
 }
 
+.photos{
+    width: 100%; 
+    height: 90%;
+}
 .contact{
     height: 100px;
     width: 100%;
     margin-top: 100px;
     background-color: #00BFFF;
     font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
 }
 
 .contact :nth-child(1){
@@ -164,23 +154,21 @@ span{
 }
 
 .basdepage{
-    height: 80px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
 }
 
 .basdepage>*{
    
     height: 100%;
-    font-size: 40px;
+    font-size: 35px;
     color: white;
     text-align: center;
     width: 10%;
     padding-top: 2px;
 }
-
 
 

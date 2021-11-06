@@ -1,16 +1,21 @@
 .photoprojet{
-    height: 700px;
+    height: 600px;
     background-color: #A9A9A9;
     color: black;
     font-size: 60px;
     font-weight: bold;
-    
+    width: 100%;
 }
 
 .titreprojet{
     height: 200px;
     font-size: 60px;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .detailprojet{
@@ -99,10 +104,3 @@
     padding-top: 2px;
 }
 
-.photoprojet, .titreprojet{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
