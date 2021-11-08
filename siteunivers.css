@@ -86,20 +86,29 @@
 }
 
 .basdepage{
-    height: 60px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: black solid 1px;}
+    
+
+.paralien{
+    
+    width: 200px;
+    text-align: center;
+    
 }
 
-.basdepage>*{
-   
-    height: 100%;
-    font-size: 35px;
+.lien{
     color: white;
-    text-align: center;
-    width: 10%;
-    padding-top: 2px;
+    font-size: 30px;
+    
+}
+
+.lien:hover{
+    color: white;
+    text-decoration: none;
 }
 
