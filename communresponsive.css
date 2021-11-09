@@ -74,12 +74,18 @@
     .contact{
         font-size: 50px;
     }
+    .mail{
+        font-size: 18px;
+    }
 }
 @media(max-width:600px){
     .contact{
         font-size: 40px;
     }
 
+    .mail{
+        font-size: 15px;
+    }
     
 .lien{
     font-size: 15px;

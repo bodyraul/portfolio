@@ -71,12 +71,12 @@
 
 @media (max-width:550px){
     .presentation>h1{
-        font-size: 25px; 
+        font-size: 45px; 
         height: 1%;
     }
 
     .presentation :nth-child(2){
-        font-size: 15px;
+        font-size: 17px;
         line-height: 50px;
         width: 100%;
         height: 50%;
@@ -87,14 +87,8 @@
     .presentation{
         height: 900px;
     }
-    
-    .presentation>h1{
-        font-size: 25px; 
-    }
 
     .presentation :nth-child(2){
-        font-size: 13px;
-        line-height: 50px;
         width: 100%;
     }
 }
