@@ -231,3 +231,21 @@
 
     }
 }
+
+/*  partie contact  responsive*/
+
+@media(max-width:900px){
+    .contact{
+        font-size: 50px;
+    }
+}
+@media(max-width:600px){
+    .contact{
+        font-size: 40px;
+    }
+
+    
+.lien{
+    font-size: 15px;
+}
+}

@@ -128,7 +128,7 @@ span{
     color: white;
     font-weight: bolder;
     text-align: center;
-    width: 40%;
+    width: 100%;
     height: 50%;
 }
 
@@ -139,8 +139,8 @@ span{
     display: flex;
     flex-direction: row;
     align-items:center;
-    justify-content: center;
-}
+    justify-content: center;}
+    
 
 .basdepage{
     height: 80px;

@@ -1,0 +1,25 @@
+/* .contenu projet responsive*/
+
+@media(max-width:1150px){
+    .contenuprojet{
+        height: 400px;
+        width: 70%;
+    }
+}
+
+@media(max-width:780px){
+    .contenuprojet{
+        height: 300px;
+        
+    }
+}
+@media(max-width:500px){
+    .contenuprojet{
+        width: 100%;
+        
+    }
+    
+    .titre{
+        margin-left: 20px;
+    }
+}

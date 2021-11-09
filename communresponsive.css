@@ -1,0 +1,88 @@
+/* traitement des elements commun à rendre responsive excepté pour index*/
+
+
+
+/* .photoprojet resposive*/
+
+@media(max-width:991px){
+    .photoprojet{
+        height: 500px;
+    }
+}
+
+@media(max-width:767px){
+    .photoprojet{
+        height: 400px;
+    }
+}
+
+@media(max-width:460px){
+    .photoprojet{
+        height: 300px;
+    }
+}
+
+/* .titreprojet .titre responsive*/
+
+@media(max-width:767px){
+    .titreprojet{
+        font-size: 40px;
+      
+    }
+    .titre{
+        font-size: 25px ;
+
+    }
+    
+}
+/* .detailprojet responsive*/
+@media(max-width:1022px){
+    
+    .detailprojet1{
+        font-size: 12px;
+    }
+    
+    .detailprojet2{
+        font-size: 15px;
+        height: 250px;
+    }
+    
+    #bouttonsite{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:780px){
+    
+    .detailprojet1{
+        font-size: 10px;
+    }
+    
+    .detailprojet2{
+        font-size: 12px;
+        height: 200px;
+    }
+    
+    #bouttonsite{
+        font-size: 10px;
+    }
+}
+
+/*  partie contact  responsive*/
+
+@media(max-width:900px){
+    .contact{
+        font-size: 50px;
+    }
+}
+@media(max-width:600px){
+    .contact{
+        font-size: 40px;
+    }
+
+    
+.lien{
+    font-size: 15px;
+}
+}
+

@@ -1,0 +1,31 @@
+/* .contenuprojetresponsive*/
+
+@media(max-width:1550px){
+    .contenuprojet{
+        height: 400px;
+    }
+}
+
+@media(max-width:1200px){
+    .contenuprojet{
+        height: 350px;
+        width: 70%;
+    }
+}
+
+@media(max-width:800px){
+    .contenuprojet{
+        height: 300px;
+        width: 85%;
+    }
+}
+
+@media(max-width:500px){
+    .contenuprojet{
+        width: 100%;
+    }
+}
+
+
+
+

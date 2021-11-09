@@ -1,0 +1,32 @@
+/* .contenu responsive*/
+
+@media(max-width:1600px){
+    .contenuprojet{
+        height: 400px;
+    }
+}
+
+@media(max-width:1100px){
+    .contenuprojet{
+        height: 350px;
+        width: 70%;
+    }
+}
+
+@media(max-width:700px){
+    .contenuprojet{
+        height: 300px;
+        width: 100%;
+    }
+}
+
+
+
+
+/* .titreprojet responsive*/
+
+@media(max-width:1165px){
+    .titreprojet{
+        margin-top: 50px;
+    }
+}
