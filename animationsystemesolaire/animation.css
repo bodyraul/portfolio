@@ -1,0 +1,734 @@
+body{
+    background-color: black;
+}
+
+.boutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.boutton>div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.boutton>div>p{
+    width: 20%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    border: white solid 1px;
+}
+
+.mere{
+    width: 80%;
+    height: 850px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#soleil{
+    z-index: -1;
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    left: 675px;
+    top: 385px;
+}
+
+.para{
+    z-index: -1;
+    position: absolute;
+    border: whitesmoke solid 1px;
+    border-radius: 50%;
+    opacity: 0.2;
+    font-weight: bold;
+}
+
+
+.mercure{
+    animation: mercure 2s linear infinite;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 715px;
+    top: 415px;
+}
+
+@keyframes mercure{
+    from{transform: rotate(0deg) translateX(70px);}
+    to{transform: rotate(360deg) translateX(70px) ;}
+}
+
+
+#para1{
+    width: 140px;
+    height: 140px;
+    left: 660px;
+    top: 360px;
+}
+
+.venus{
+    animation: venus 4.5s linear infinite;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 715px;
+    top: 415px;
+}
+
+@keyframes venus{
+    from{transform: rotate(0deg) translateX(110px);}
+    to{transform: rotate(360deg) translateX(110px) ;}
+}
+
+#para2{
+    width: 220px;
+    height: 220px;
+    left: 620px;
+    top: 320px;
+}
+
+.terre{
+    animation: terre 8.28s linear infinite;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 715px;
+    top: 415px;
+}
+
+@keyframes terre{
+    from{transform: rotate(0deg) translateX(150px);}
+    to{transform: rotate(360deg) translateX(150px) ;}
+}
+
+#para3{
+    width: 300px;
+    height: 300px;
+    left: 580px;
+    top: 280px;
+}
+
+.mars{
+    animation: mars 15.6s linear infinite;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 715px;
+    top: 415px;
+}
+
+@keyframes mars{
+    from{transform: rotate(0deg) translateX(190px);}
+    to{transform: rotate(360deg) translateX(190px) ;}
+}
+
+#para4{
+    width: 380px;
+    height: 380px;
+    left: 540px;
+    top: 240px;
+}
+
+.jupiter{
+    animation: jupiter 98.28s linear infinite;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 715px;
+    top: 415px;
+}
+
+@keyframes jupiter{
+    from{transform: rotate(0deg) translateX(230px);}
+    to{transform: rotate(360deg) translateX(230px) ;}
+}
+
+#para5{
+    width: 460px;
+    height: 460px;
+    left: 500px;
+    top: 200px;
+}
+
+.saturne{
+    animation: saturne 243s linear infinite;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 715px;
+    top: 415px;
+}
+
+@keyframes saturne{
+    from{transform: rotate(0deg) translateX(270px);}
+    to{transform: rotate(360deg) translateX(270px) ;}
+}
+
+#para6{
+    width: 540px;
+    height: 540px;
+    left: 460px;
+    top: 160px;
+}
+
+.uranus{
+    animation: uranus 692s linear infinite;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 715px;
+    top: 415px;
+}
+
+@keyframes uranus{
+    from{transform: rotate(0deg) translateX(310px);}
+    to{transform: rotate(360deg) translateX(310px) ;}
+}
+
+
+#para7{
+    width: 620px;
+    height: 620px;
+    left: 420px;
+    top: 120px;
+}
+
+.neptune{
+    animation: neptune 1300s linear infinite;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 715px;
+    top: 415px;
+}
+
+@keyframes neptune{
+    from{transform: rotate(0deg) translateX(350px);}
+    to{transform: rotate(360deg) translateX(350px) ;}
+}
+
+
+#para8{
+    width: 700px;
+    height: 700px;
+    left: 380px;
+    top: 80px;
+}
+
+
+
+
+/* animation responsive a 1410 px*/
+
+@media (max-width:1410px){
+    .boutton{
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .boutton>div{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .mere{
+        margin: 0 0;
+        width: 100%;
+    }
+
+    #soleil{
+        top: 295px;
+        left: 665px;
+    }
+
+    .mercure{
+        top: 325px;
+        left: 705px;
+    }
+
+    #para1{
+        width: 120px;
+        height: 120px;
+        top: 280px;
+        left: 660px;
+    }
+
+    @keyframes mercure{
+        from{transform: rotate(0deg) translateX(60px);}
+        to{transform: rotate(360deg) translateX(60px) ;}
+    }
+    
+    .venus{
+        top: 325px;
+        left: 705px;
+    }
+
+    #para2{
+        width: 200px;
+        height: 200px;
+        top: 240px;
+        left: 620px;
+    }
+
+    @keyframes venus{
+        from{transform: rotate(0deg) translateX(100px);}
+        to{transform: rotate(360deg) translateX(100px) ;}
+    }
+    
+    .terre{
+        top: 325px;
+        left: 705px;
+    }
+    
+    #para3{
+        width: 280px;
+        height: 280px;
+        top: 200px;
+        left: 580px;
+    }
+
+    @keyframes terre{
+        from{transform: rotate(0deg) translateX(140px);}
+        to{transform: rotate(360deg) translateX(140px) ;}
+    }
+    
+    .mars{
+        top: 325px;
+        left: 705px;
+    }
+    
+    #para4{
+        width: 360px;
+        height: 360px;
+        top: 160px;
+        left: 540px;
+    }
+
+    @keyframes mars{
+        from{transform: rotate(0deg) translateX(180px);}
+        to{transform: rotate(360deg) translateX(180px) ;}
+    }
+    
+    .jupiter{
+        top: 325px;
+        left: 705px;
+    }
+    
+    #para5{
+        width: 440px;
+        height: 440px;
+        top: 120px;
+        left: 500px;
+    }
+
+    @keyframes jupiter{
+        from{transform: rotate(0deg) translateX(220px);}
+        to{transform: rotate(360deg) translateX(220px) ;}
+    }
+    
+    .saturne{
+        top: 325px;
+        left: 705px;
+    }
+    
+    #para6{
+        width: 520px;
+        height: 520px;
+        top: 80px;
+        left: 460px;
+    }
+
+    @keyframes saturne{
+        from{transform: rotate(0deg) translateX(260px);}
+        to{transform: rotate(360deg) translateX(260px) ;}
+    }
+    
+    .uranus{
+        top: 325px;
+        left: 705px;
+    }
+    
+    #para7{
+        width: 600px;
+        height: 600px;
+        top: 40px;
+        left: 420px;
+    }
+
+    @keyframes uranus{
+        from{transform: rotate(0deg) translateX(300px);}
+        to{transform: rotate(360deg) translateX(300px) ;}
+    }
+
+    .neptune{
+        top: 325px;
+        left: 705px;
+    }
+    
+    #para8{
+        top: 0px;
+        width: 680px;
+        height: 680px;
+   
+    }
+
+    @keyframes neptune{
+        from{transform: rotate(0deg) translateX(340px);}
+        to{transform: rotate(360deg) translateX(340px) ;}
+    }
+
+}
+
+
+
+/* animation responsive a 1150 px*/
+
+
+@media (max-width:1150px){
+    
+    .boutton>div{
+        width: 100%;
+    }
+
+    .boutton>div>p{
+        width: 24%;
+    }
+
+    .mere{
+        height:710px ;
+    }
+
+    #soleil{
+        left: 385px;
+    }
+
+    .mercure{
+        left: 430px;
+    }
+
+    #para1{
+        left: 380px;
+    }
+    
+    .venus{
+        left: 430px;
+    }
+
+    #para2{
+        left: 340px;
+    }
+    
+    .terre{
+        left: 430px;
+    }
+    
+    #para3{
+        left: 300px;
+    }
+    
+    .mars{
+        left: 430px;
+    }
+    
+    #para4{
+        left: 260px;
+    }
+    
+    .jupiter{
+        left: 430px;
+    }
+    
+    #para5{
+        left: 220px;
+    }
+    
+    .saturne{
+        left: 430px;
+    }
+    
+    #para6{
+        left: 180px;
+    }
+    
+    .uranus{
+        left: 430px;
+    }
+    
+    #para7{
+        left: 140px;
+    }
+
+    .neptune{
+        left: 430px;
+    }
+    
+    #para8{
+      left: 100px;
+    }
+}
+
+
+
+
+
+/* animation responsive a 820 px*/
+
+@media (max-width:820px){
+    .mere{
+        height: 400px;
+    }
+
+    .boutton{
+        height: 250px;
+    }
+    
+    .boutton>div{
+        width: 100%;
+    }
+
+    .mere{
+        height:510px ;
+    }
+
+    #soleil{
+        left: 282px;
+        top: 192px;
+    }
+
+    .mercure{
+        left: 325px;
+        top: 225px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #para1{
+        height: 120px;
+        width: 120px;
+        left: 275px;
+        top: 175px;
+    }
+
+    @keyframes mercure{
+        from{transform: rotate(0deg) translateX(60px);}
+        to{transform: rotate(360deg) translateX(60px) ;}
+    }
+    
+    .venus{
+        left: 325px;
+        top: 225px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #para2{
+        height: 170px;
+        width: 170px;
+        left: 250px;
+        top: 150px;
+    }
+
+    @keyframes venus{
+        from{transform: rotate(0deg) translateX(85px);}
+        to{transform: rotate(360deg) translateX(85px) ;}
+    }
+    
+    .terre{
+        left: 325px;
+        top: 225px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #para3{
+        height: 220px;
+        width: 220px;
+        left: 225px;
+        top: 125px;
+    }
+
+    @keyframes terre{
+        from{transform: rotate(0deg) translateX(110px);}
+        to{transform: rotate(360deg) translateX(110px) ;}
+    }
+    
+    .mars{
+        left: 325px;
+        top: 225px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #para4{
+        height: 270px;
+        width: 270px;
+        left: 200px;
+        top: 100px;
+    }
+
+    @keyframes mars{
+        from{transform: rotate(0deg) translateX(135px);}
+        to{transform: rotate(360deg) translateX(135px) ;}
+    }
+    
+    .jupiter{
+        left: 325px;
+        top: 225px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #para5{
+        height: 320px;
+        width: 320px;
+        left: 175px;
+        top: 75px;
+    }
+
+    @keyframes jupiter{
+        from{transform: rotate(0deg) translateX(160px);}
+        to{transform: rotate(360deg) translateX(160px) ;}
+    }
+    
+    .saturne{
+        left: 325px;
+        top: 225px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #para6{
+        height: 370px;
+        width: 370px;
+        left: 150px;
+        top: 50px;
+    }
+    
+    @keyframes saturne{
+        from{transform: rotate(0deg) translateX(185px);}
+        to{transform: rotate(360deg) translateX(185px) ;}
+    }
+    
+    .uranus{
+        left: 325px;
+        top: 225px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #para7{
+        height: 420px;
+        width: 420px;
+        left: 125px;
+        top: 25px;
+    }
+
+    @keyframes uranus{
+        from{transform: rotate(0deg) translateX(210px);}
+        to{transform: rotate(360deg) translateX(210px) ;}
+    }
+
+    .neptune{
+        left: 325px;
+        top: 225px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #para8{
+        height: 470px;
+        width: 470px;
+    }
+
+    @keyframes neptune{
+        from{transform: rotate(0deg) translateX(235px);}
+        to{transform: rotate(360deg) translateX(235px) ;}
+    }
+}
+
+
+/* animation responsive a 650 px*/
+
+@media (max-width:650px){
+    #soleil{
+        left: 180px;
+    }
+
+    .mercure{
+        left: 225px;
+    }
+
+    #para1{
+        left: 175px;
+    }
+    
+    .venus{
+        left: 225px;
+    }
+
+    #para2{
+        left: 150px;
+    }
+    
+    .terre{
+        left: 225px;
+    }
+    
+    #para3{
+        left: 125px;
+    }
+    
+    .mars{
+        left: 225px;
+    }
+    
+    #para4{
+        left: 100px;
+    }
+    
+    .jupiter{
+        left: 225px;
+    }
+    
+    #para5{
+        left: 75px;
+    }
+    
+    .saturne{
+        left: 225px;
+    }
+    
+    #para6{
+        left: 50px;
+    }
+    
+    .uranus{
+        left: 225px;
+    }
+    
+    #para7{
+        left: 25px;
+    }
+
+    .neptune{
+        left: 225px;
+    }
+    
+    #para8{
+      left: 0px;
+    }
+}
+
+
